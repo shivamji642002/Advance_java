@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Employee List</title>
+</head>
+<body>
+    <h2>Employee List</h2>
+    <a th:href="@{/employees/add}">Add Employee</a>
+    
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Mobile</th>
+            <th>Password</th>
+            <th>Gender</th>
+            <th>Married</th>
+            <th>Salary</th>
+            <th>Height</th>
+            <th>Date of Birth</th>
+            <th>Joined At</th>
+            <th>Actions</th>
+        </tr>
+        <tr th:each="emp : ${employees}">
+            <td th:text="${emp.empId}"></td>
+            <td th:text="${emp.empName}"></td>
+            <td th:text="${emp.email}"></td>
+            <td th:text="${emp.mobile}"></td>
+            <td th:text="${emp.password}"></td>
+            <td th:text="${emp.gender}"></td>
+            <td th:text="${emp.married}"></td>
+            <td th:text="${emp.salary}"></td>
+            <td th:text="${emp.height}"></td>
+            <td th:text="${emp.dob}"></td>
+            <td th:text="${emp.joinedAt}"></td>
+            <td>
+                <a th:href="@{/employees/edit/{id}(id=${emp.empId})}">Edit</a> |
+                <a th:href="@{/employees/delete/{id}(id=${emp.empId})}" onclick="return confirm('Are you sure?')">Delete</a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

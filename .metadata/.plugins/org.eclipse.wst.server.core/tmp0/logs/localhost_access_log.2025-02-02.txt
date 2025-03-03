@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [02/Feb/2025:16:16:58 +0530] "GET /04_StudentDaoWebApp/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Feb/2025:16:17:25 +0530] "GET /04_StudentDaoWebApp/RegisterController HTTP/1.1" 200 4131
+0:0:0:0:0:0:0:1 - - [02/Feb/2025:16:19:12 +0530] "POST /04_StudentDaoWebApp/RegisterController HTTP/1.1" 200 4379
+0:0:0:0:0:0:0:1 - - [02/Feb/2025:16:19:12 +0530] "GET /04_StudentDaoWebApp/img/userAtDesktop.svg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Feb/2025:16:19:20 +0530] "GET /04_StudentDaoWebApp/LoginController HTTP/1.1" 200 4356
+0:0:0:0:0:0:0:1 - - [02/Feb/2025:16:19:52 +0530] "POST /04_StudentDaoWebApp/LoginHandler HTTP/1.1" 200 4375
+0:0:0:0:0:0:0:1 - - [02/Feb/2025:16:20:23 +0530] "POST /04_StudentDaoWebApp/LoginHandler HTTP/1.1" 200 4375
+0:0:0:0:0:0:0:1 - - [02/Feb/2025:16:20:29 +0530] "POST /04_StudentDaoWebApp/LoginHandler HTTP/1.1" 200 8271
+0:0:0:0:0:0:0:1 - - [02/Feb/2025:16:20:41 +0530] "GET /04_StudentDaoWebApp/LogoutController HTTP/1.1" 200 4356
+0:0:0:0:0:0:0:1 - - [02/Feb/2025:16:20:51 +0530] "GET /04_StudentDaoWebApp/LoginController HTTP/1.1" 200 4356
+0:0:0:0:0:0:0:1 - - [02/Feb/2025:16:23:48 +0530] "GET /04_StudentDaoWebApp/RegisterController HTTP/1.1" 200 4131
